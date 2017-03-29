@@ -1,0 +1,212 @@
+\q
+CREATE TABLE famous_people (
+id BIGSERIAL PRIMARY KEY
+first_name VARCHAR(50),
+lsat_name VARCHAR(50),
+birthdate\q
+CREATE TABLE famous_people (
+  id BIGSERIAL PRIMARY KEY,
+  first_name VARCHAR(50),
+  last_name VARCHAR(50),
+  birthdate DATE
+);
+INSERT INTO famous_people (first_name, last_name, birthdate) values ('Abraham', 'Lincoln', '1809-02-12');
+select (*) from famous_people
+;
+select famous_people
+;
+select 'Abraham' from famous_people
+;
+select * from famous
+select * from famous_people
+;
+select famous_people
+;
+select from famous_people;
+insert into famous_people (first_name, last_name, birthdate) values 'Mahatma', 'Gandhi', '1869-10-02')
+;
+insert into famous_people (first_name, last_name, birthdate) values ('Mahatma', 'Gandhi', '1869-10-02')
+;
+insert into famous_people (first_name, last_name, birthdate) values ('Paul', 'Rudd', '1969-04-06')
+;
+select * from famous_people;
+select * from famous_people where birthdate >= '1920-01-01';
+select * from famous_people where birthdate < '1920-01-01';
+\q
+< navy_schema.sql
+;
+navy_schema.sql
+;
+\q
+< navy_schema.sql
+;\q
+ls
+help
+;
+;
+\?
+\q
+\d
+\h
+\t
+\t
+\d
+\?
+\d[S+]
+\dS
+\d
+\/
+\?
+delete famous_people
+;
+delete(famous_people);
+delete from famous_people
+;
+\d
+delete () from famous_people
+delete from all
+;
+delete from;
+delete from f*;
+delete from famous_people;
+discard all
+;
+;
+\d
+select from famous_people;
+Drop all
+;
+drop from famous_people
+;
+drop table famous_people;
+\d
+select from fleet
+;
+\d fleet;
+\q
+\d assignment
+\d fleet
+\q
+\d
+\d sailors
+\d assignment
+\d saior
+\d sailor
+\q
+\d
+\q
+\d
+drop all
+;
+discard all;
+\d
+drop assignment;
+drop from assignment;
+drop table 
+;
+DROP SCHEMA public CASCADE;
+CREATE SCHEMA public;
+\d
+\q
+\d
+\d assignment
+\q 
+insert into 'fleet' (name) values ('squad')
+;
+insert into fleet (name) values ('squad')
+;
+\d
+\d fleet
+select from fleet 'squad'
+;
+slect from fleet
+;
+select from fleet;
+select squad from fleet;
+\d fleet
+\?
+\db
+\db fleet
+\db public
+\db
+\db pg_global 
+public.fleet.name
+;
+select from public.fleet.name
+;
+select public.fleet;
+select from public.fleet;
+select from public.fleet.name;
+select from public.fleet;
+\d public.fleet
+\d public.fleet.name
+\d s
+\ds
+\d assignment_id_seq 
+\d fleet_id_seq 
+\dSfleet
+\dt
+\dt fleet
+\dt fleet
+select table fleet
+;
+select table from fleet;
+select* from fleet
+;
+\d
+\q
+\d
+\dt
+select * from ship
+;
+insert into ship (name, build_date, fleet
+_id) values ('long_boy', 1995-02-11, 1);
+insert into ship (name, build_date, fleet) values ("long_boy", "1995-02-11", 1);
+insert into ship (name, build_date, fleet_id) values ("long_boy", "1995-02-11", 1);
+insert into "ship" (name, build_date, fleet_id) values ('long_boy', '1995-02-11', 1);
+insert into fleet (name) value ('squad')
+;
+insert into fleet (name) values ('squad')
+;
+insert into "ship" (name, build_date, fleet_id) values ('long_boy', '1995-02-11', 1);
+select * from ship
+;
+q
+\q
+\d
+CREATE TABLE famous_people ( 
+  id BIGSERIAL PRIMARY KEY,
+  first_name VARCHAR(50),
+  last_name VARCHAR(50),
+  birthdate DATE
+);
+INSERT INTO famous_people (first_name, last_name, birthdate)
+  VALUES ('Abraham', 'Lincoln', '1809-02-12');
+INSERT INTO famous_people (first_name, last_name, birthdate)
+  VALUES ('Mahatma', 'Gandhi', '1869-10-02');
+INSERT INTO famous_people (first_name, last_name, birthdate)
+  VALUES ('Paul', 'Rudd', '1969-04-06');
+\d
+select * from famous_people 
+;
+\q
+\d
+Select Lincoln from famous_people 
+;
+select 
+* from famous_people ;
+\q
+select * from famous_people 
+;
+select * from famous_people 
+;
+\q
+\q
+\d
+select * from famous_people 
+;
+\q
+\d
+public
+\d public
+\s public
